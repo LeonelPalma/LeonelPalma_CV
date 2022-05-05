@@ -2870,3 +2870,42 @@ blockquote {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+.home-arrow a {
+     font-size: 34px;
+ }
+ .welcome-area .home-arrow .fa {
+     display: inline-block;
+     -webkit-transform-style: preserve-3d;
+     transform-style: preserve-3d;
+     -webkit-animation-name: home-arrow;
+     animation-name: home-arrow;
+     animation-duration: 2s;
+     -webkit-animation-duration: 2s;
+     -webkit-animation-iteration-count: infinite;
+     animation-iteration-count: infinite;
+     -webkit-animation-timing-function: linear;
+     animation-timing-function: linear;
+ }
+ @-webkit-keyframes home-arrow {
+     from {
+         -webkit-transform: translate3d( 0, 0px, 0);
+         transform: translate3d( 0, 0px, 0);
+         filter: alpha(opacity=0);
+         opacity: 0;
+         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     }
+     10% {
+         -webkit-transform: translate3d( 0, 5px, 0);
+         transform: translate3d( 0, 5px, 0);
+         filter: alpha(opacity=100);
+         opacity: 1;
+         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     }
+     to {
+         -webkit-transform: translate3d( 0, 30px, 0);
+         transform: translate3d( 0, 30px, 0);
+         filter: alpha(opacity=0);
+         opacity: 0;
+         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     }
+ }
