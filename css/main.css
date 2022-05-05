@@ -2860,3 +2860,13 @@ blockquote {
     line-height: 1;
     border: none
 }
+
+
+.home-arrow {
+    text-align: center;
+    position: absolute;
+    bottom: -210px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
