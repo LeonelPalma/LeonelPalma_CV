@@ -369,7 +369,9 @@ p {
     }
 
     .header-photo:hover {
-        transform: scale(2.5);
+        transform: scale(1.7);
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
     }
 
 .header-titles h2 {
