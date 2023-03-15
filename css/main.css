@@ -344,7 +344,7 @@ p {
 
     .header-photo img {
         max-width: 100%;
-	    height:auto;
+	height:auto;
         background-color: #fff;
         border: 3px solid #fff;
         border-radius: 300px
@@ -369,7 +369,7 @@ p {
     }
 
     .header-photo:hover {
-        transform: scale(1.5);
+        transform: scale(2.5);
     }
 
 .header-titles h2 {
