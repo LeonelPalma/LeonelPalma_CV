@@ -369,7 +369,7 @@ p {
     }
 
     .header-photo:hover {
-        transform: scale(1.7);
+        transform: scale(2.0);
 	animation: shake 0.5s;
 	animation-iteration-count: infinite;
     }
