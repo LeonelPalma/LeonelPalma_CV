@@ -337,12 +337,14 @@ p {
 .header-photo {
     position: relative;
     width: 180px;
+    transition: transform .2s;
     margin: 0 auto 30px;
     z-index: 1
 }
 
     .header-photo img {
         max-width: 100%;
+	    height:auto;
         background-color: #fff;
         border: 3px solid #fff;
         border-radius: 300px
@@ -364,6 +366,10 @@ p {
         -moz-background-size: 6px 6px;
         background-size: 6px 6px;
         z-index: -1
+    }
+
+    .header-photo:hover {
+        transform: scale(1.5);
     }
 
 .header-titles h2 {
