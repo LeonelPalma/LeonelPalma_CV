@@ -1202,7 +1202,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .skills-second-style .skill-container.skill-4 .skill-percentage {
-    width: 90%
+    width: 70%
 }
 
 .skills-second-style .skill-container.skill-5 .skill-percentage {
@@ -1238,23 +1238,23 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .skills-second-style .skill-container.skill-13 .skill-percentage {
-    width: 75%
+    width: 65%
 }
 
 .skills-second-style .skill-container.skill-14 .skill-percentage {
-    width: 70%
+    width: 60%
 }
 
 .skills-second-style .skill-container.skill-15 .skill-percentage {
-    width: 55%
+    width: 50%
 }
 
 .skills-second-style .skill-container.skill-16 .skill-percentage {
-    width: 70%
+    width: 75%
 }
 
 .skills-second-style .skill-container.skill-17 .skill-percentage {
-    width: 40%
+    width: 65%
 }
 
 .skills-second-style .skill-container.skill-18 .skill-percentage {
@@ -1262,11 +1262,11 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .skills-second-style .skill-container.skill-19 .skill-percentage {
-    width: 40%
+    width: 45%
 }
 
 .skills-second-style .skill-container.skill-20 .skill-percentage {
-    width: 30%
+    width: 40%
 }
 
 .pt-page .skills-second-style .skill-percentage, .pt-page .skills-second-style .skill-value {
@@ -1393,16 +1393,18 @@ textarea.form-control, textarea.form-control:focus {
     .portfolio-filters li {
         display: inline-block;
         margin-right: 15px;
-        font-size: 13px;
-        opacity: .7
+        font-size: 18px;
+        opacity: .6
     }
 
         .portfolio-filters li.active {
-            opacity: 1
+            font-size: 22px;
+            opacity: 1;
+            color: #04b4e0;
         }
 
         .portfolio-filters li a {
-            color: #aaa;
+            color: #04b4e0;
             cursor: pointer
         }
 
@@ -1416,7 +1418,8 @@ textarea.form-control, textarea.form-control:focus {
         float: left;
         padding: 7px;
         position: relative;
-        overflow: hidden
+        overflow: hidden;
+        margin-bottom: 40px
     }
 
     .portfolio-grid.one-column figure {
