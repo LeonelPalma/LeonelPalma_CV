@@ -5,5 +5,5 @@ https://leonelpalma.github.io/LeonelPalma_CV
 
 I hope you like it... Contact me later, ok? 
 
-©2022 All rights reserved. | Designed by Leonel Palma <br>
+©2023 All rights reserved. | Designed by Leonel Palma <br>
 PS: *Please, don't do plagiarism or use my resume data.*
